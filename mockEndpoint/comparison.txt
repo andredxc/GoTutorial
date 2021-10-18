@@ -1,0 +1,20 @@
+
+// POSTMAN
+
+2021/10/18 11:27:31 [hello] - proto:HTTP/1.1 host:192.168.1.10:8080 remoteAddr:192.168.1.9:46604 method:PUT path:/
+
+2021/10/18 11:27:31 Body: map[description:sem descricao external_reference:0001066700020107 items:[map[quantity:1 sku_number:2 title:Ursinho de Pelucia total_amount:20 unit_measure:unit unit_price:20]] sponsor:map[id:8.40624875e+08] title:Compra Mercado Pago QR total_amount:20]
+
+2021/10/18 11:27:31 Header: &{PUT / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Authorization:[Bearer APP_USR-8590501668923978-101412-be77aa511bf93706d2cd2c1c196b75e1-837463625] Connection:[keep-alive] Content-Length:[276] Content-Type:[application/json] Postman-Token:[08829be5-259c-4248-a0f5-4c96d24aea39] User-Agent:[PostmanRuntime/7.28.2]] 0xc00009e080 <nil> 276 [] false 192.168.1.10:8080 map[] map[] <nil> map[] 192.168.1.9:46604 / <nil> <nil> <nil> 0xc00009e0c0}
+
+2021/10/18 11:27:31 Length: 276
+
+// PDV 
+
+2021/10/18 11:28:00 [hello] - proto:HTTP/1.1 host:192.168.1.10:8080 remoteAddr:192.168.1.9:46616 method:PUT path:/
+
+2021/10/18 11:28:00 Body: map[description:sem descricao external_reference:0001066700020107 items:[map[quantity:1 sku_number:2 title:Ursinho de Pelucia total_amount:20 unit_measure:unit unit_price:20]] sponsor:map[id:8.40624875e+08] title:Compra Mercado Pago QR total_amount:20]
+
+2021/10/18 11:28:00 Header: &{PUT / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip,deflate] Authorization:[Bearer APP_USR-8590501668923978-101412-be77aa511bf93706d2cd2c1c196b75e1-837463625] Connection:[close] Content-Length:[277] Content-Type:[application/json] Date:[Mon, 18 Oct 2021 14:27:59 GMT] User-Agent:[InetURL/1.0]] 0xc00009e200 <nil> 277 [] true 192.168.1.10:8080 map[] map[] <nil> map[] 192.168.1.9:46616 / <nil> <nil> <nil> 0xc00009e240}
+
+2021/10/18 11:28:00 Length: 277
